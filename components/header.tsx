@@ -3,7 +3,7 @@
 import { Phone, Clock, Menu, X } from "lucide-react"
 import { useState } from "react"
 import Link from "next/link"
-import Image from "next/image" // Import added
+import Image from "next/image" // Next.js Image component
 
 const PHONE_NUMBER = "tel:+32474439553"
 
@@ -29,9 +29,9 @@ export function Header() {
       {/* Main nav */}
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
         <Link href="/" className="flex items-center gap-3">
-          {/* Logo Image replaces the "T" box */}
+          {/* Logo updated to logo.png */}
           <Image 
-            src="/logo.jpeg" 
+            src="/logo.png" 
             alt="TAHA Dépannage et Remorquage" 
             width={180} 
             height={60} 
