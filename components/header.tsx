@@ -33,8 +33,8 @@ export function Header() {
           <Image 
             src="/logo.png" 
             alt="TAHA Dépannage et Remorquage" 
-            width={180} 
-            height={60} 
+            width={140} 
+            height={45} 
             className="object-contain"
             priority 
           />
