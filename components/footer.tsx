@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -9,9 +10,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-4 flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                <span className="text-lg font-black">T</span>
-              </div>
+               <Image src="/logo.jpeg" alt="TAHA Logo" width={100} height={100} className="object-contain" />
               <div className="flex flex-col">
                 <span className="text-lg font-bold leading-tight">TAHA</span>
                 <span className="text-xs leading-tight text-secondary-foreground/50">{"Depannage & Remorquage"}</span>
