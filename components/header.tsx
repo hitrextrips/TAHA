@@ -3,6 +3,7 @@
 import { Phone, Clock, Menu, X } from "lucide-react"
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 const PHONE_NUMBER = "tel:+32474439553"
 
