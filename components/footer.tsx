@@ -9,15 +9,18 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <div className="mb-4 flex items-center gap-3">
-               <Image src="/logo.jpeg" alt="TAHA Logo" width={100} height={100} className="object-contain" />
-              <div className="flex flex-col">
-                <span className="text-lg font-bold leading-tight">TAHA</span>
-                <span className="text-xs leading-tight text-secondary-foreground/50">{"Depannage & Remorquage"}</span>
-              </div>
+            <div className="mb-6 flex items-center gap-3">
+               {/* Updated to logo.png and adjusted size for footer visibility */}
+               <Image 
+                 src="/logo.png" 
+                 alt="TAHA Dépannage et Remorquage" 
+                 width={140} 
+                 height={60} 
+                 className="object-contain" 
+               />
             </div>
             <p className="text-sm leading-relaxed text-secondary-foreground/60">
-              {"Service de depannage et remorquage professionnel a Liege et Seraing. Disponible 24h/24, 7j/7."}
+              {"Service de dépannage et remorquage professionnel à Liège et Seraing. Disponible 24h/24, 7j/7."}
             </p>
           </div>
 
@@ -71,7 +74,7 @@ export function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-secondary-foreground/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-xs text-secondary-foreground/40 md:flex-row">
-          <p>{"© 2026 TAHA Depannage et Remorquage. Tous droits reserves."}</p>
+          <p>{"© 2026 TAHA Dépannage et Remorquage. Tous droits réservés."}</p>
           <p>{"TVA : BE1034.759.970"}</p>
         </div>
       </div>
